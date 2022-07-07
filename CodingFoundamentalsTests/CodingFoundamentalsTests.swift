@@ -1,36 +1,73 @@
 //
-//  CodingFoundamentalsTests.swift
-//  CodingFoundamentalsTests
+//  CodingFundamentalsTests.swift
+//  CodingFundamentalsTests
 //
 //  Created by Pablo De La Cruz on 7/7/22.
 //
 
 import XCTest
-@testable import CodingFoundamentals
+@testable import CodingFundamentals
 
-class CodingFoundamentalsTests: XCTestCase {
+class CodingFundamentalsTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testAdd() {
+        let result = Fundamentals().addNumbers(x: 1, y: 2)
+        XCTAssertEqual(result, 3)
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testSub() {
+        let result = Fundamentals().subNumbers(x: 1, y: 2)
+        XCTAssertEqual(result, -1)
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    func testMult() {
+        let result = Fundamentals().multNumbers(x: 3, y: 2)
+        XCTAssertEqual(result, 6)
     }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testPalindrome() {
+        XCTAssertTrue(Fundamentals().isPalindrome(word: "lool"))
+        XCTAssertTrue(Fundamentals().isPalindrome(word: "anna"))
+        XCTAssertFalse(Fundamentals().isPalindrome(word: "Revature"))
+        XCTAssertTrue(Fundamentals().isPalindrome(word: "11gg22gg11"))
+    }
+
+    func testCharCounter() {
+        XCTAssertEqual(Fundamentals().charCounter(char: "p", string: "Apple"), 2)
+        XCTAssertEqual(Fundamentals().charCounter(char: "l", string: "Hello World"), 3)
+        XCTAssertEqual(Fundamentals().charCounter(char: "h", string: "dasdsjbdahsdvi;vldb-dsashdhbalcvljhseb2387hyfgg23buhbsd"), 6)
+    }
+
+    func testMatchingItemInArray() {
+        XCTAssertEqual(Fundamentals().matchItemsInArray(item: "hello", arr: ["world", "hello", "2", "yes", "hello"]), ["hello", "hello"])
+
+    }
+    
+    func testSquareSum() {
+        XCTAssertEqual(Fundamentals().squareSum([]), 0)
+        XCTAssertEqual(Fundamentals().squareSum([1]), 1)
+        XCTAssertEqual(Fundamentals().squareSum([1, 2]), 5)
+        XCTAssertEqual(Fundamentals().squareSum([3, 4]), 25)
+        XCTAssertEqual(Fundamentals().squareSum([-3, -4]), 25)
+        XCTAssertEqual(Fundamentals().squareSum([1, 2, 3]), 14)
+        XCTAssertEqual(Fundamentals().squareSum([5, 3, 4]), 50)
+        XCTAssertEqual(Fundamentals().squareSum([-3, -4, 0]), 25)
+
+       }
+    
+    func testSwitchItUp() {
+        XCTAssertEqual(Fundamentals().switchItUp(1), "One")
+        XCTAssertEqual(Fundamentals().switchItUp(3), "Three")
+        XCTAssertEqual(Fundamentals().switchItUp(5), "Five")
         }
-    }
+    
+    func testHero() {
+        //Hero Wins
+        XCTAssertTrue(Fundamentals().hero(bullets: 4, dragons: 2))
+        //Hero Loses
+        XCTAssertFalse(Fundamentals().hero(bullets: 4, dragons: 3))
+     }
+   
+
 
 }

@@ -14,8 +14,7 @@
 		FEFD49B32877314E00184498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEFD49B22877314E00184498 /* Assets.xcassets */; };
 		FEFD49B62877314E00184498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEFD49B42877314E00184498 /* LaunchScreen.storyboard */; };
 		FEFD49C12877314E00184498 /* CodingFoundamentalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFD49C02877314E00184498 /* CodingFoundamentalsTests.swift */; };
-		FEFD49CB2877314F00184498 /* CodingFoundamentalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFD49CA2877314F00184498 /* CodingFoundamentalsUITests.swift */; };
-		FEFD49CD2877314F00184498 /* CodingFoundamentalsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFD49CC2877314F00184498 /* CodingFoundamentalsUITestsLaunchTests.swift */; };
+		FEFD49DA287731D000184498 /* Fundamentals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFD49D9287731D000184498 /* Fundamentals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,17 +25,11 @@
 			remoteGlobalIDString = FEFD49A52877314C00184498;
 			remoteInfo = CodingFoundamentals;
 		};
-		FEFD49C72877314F00184498 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FEFD499E2877314C00184498 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FEFD49A52877314C00184498;
-			remoteInfo = CodingFoundamentals;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FEFD49A62877314C00184498 /* CodingFoundamentals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingFoundamentals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE28743828775B7000FD4270 /* README.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = README.docx; sourceTree = "<group>"; };
+		FEFD49A62877314C00184498 /* CodingFundamentals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingFundamentals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFD49A92877314C00184498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEFD49AB2877314C00184498 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FEFD49AD2877314C00184498 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,11 +37,9 @@
 		FEFD49B22877314E00184498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEFD49B52877314E00184498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEFD49B72877314E00184498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FEFD49BC2877314E00184498 /* CodingFoundamentalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingFoundamentalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFD49BC2877314E00184498 /* CodingFundamentalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingFundamentalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFD49C02877314E00184498 /* CodingFoundamentalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingFoundamentalsTests.swift; sourceTree = "<group>"; };
-		FEFD49C62877314F00184498 /* CodingFoundamentalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingFoundamentalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEFD49CA2877314F00184498 /* CodingFoundamentalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingFoundamentalsUITests.swift; sourceTree = "<group>"; };
-		FEFD49CC2877314F00184498 /* CodingFoundamentalsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingFoundamentalsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEFD49D9287731D000184498 /* Fundamentals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fundamentals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,22 +57,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEFD49C32877314F00184498 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		FEFD499D2877314C00184498 = {
 			isa = PBXGroup;
 			children = (
-				FEFD49A82877314C00184498 /* CodingFoundamentals */,
+				FEFD49DB2877322E00184498 /* folder */,
+				FEFD49A82877314C00184498 /* CodingFundamentals */,
 				FEFD49BF2877314E00184498 /* CodingFoundamentalsTests */,
-				FEFD49C92877314F00184498 /* CodingFoundamentalsUITests */,
 				FEFD49A72877314C00184498 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,25 +73,20 @@
 		FEFD49A72877314C00184498 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FEFD49A62877314C00184498 /* CodingFoundamentals.app */,
-				FEFD49BC2877314E00184498 /* CodingFoundamentalsTests.xctest */,
-				FEFD49C62877314F00184498 /* CodingFoundamentalsUITests.xctest */,
+				FEFD49A62877314C00184498 /* CodingFundamentals.app */,
+				FEFD49BC2877314E00184498 /* CodingFundamentalsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FEFD49A82877314C00184498 /* CodingFoundamentals */ = {
+		FEFD49A82877314C00184498 /* CodingFundamentals */ = {
 			isa = PBXGroup;
 			children = (
-				FEFD49A92877314C00184498 /* AppDelegate.swift */,
-				FEFD49AB2877314C00184498 /* SceneDelegate.swift */,
-				FEFD49AD2877314C00184498 /* ViewController.swift */,
-				FEFD49AF2877314C00184498 /* Main.storyboard */,
-				FEFD49B22877314E00184498 /* Assets.xcassets */,
-				FEFD49B42877314E00184498 /* LaunchScreen.storyboard */,
+				FEFD49D9287731D000184498 /* Fundamentals.swift */,
+				FE28743828775B7000FD4270 /* README.docx */,
 				FEFD49B72877314E00184498 /* Info.plist */,
 			);
-			path = CodingFoundamentals;
+			path = CodingFundamentals;
 			sourceTree = "<group>";
 		};
 		FEFD49BF2877314E00184498 /* CodingFoundamentalsTests */ = {
@@ -118,21 +97,25 @@
 			path = CodingFoundamentalsTests;
 			sourceTree = "<group>";
 		};
-		FEFD49C92877314F00184498 /* CodingFoundamentalsUITests */ = {
+		FEFD49DB2877322E00184498 /* folder */ = {
 			isa = PBXGroup;
 			children = (
-				FEFD49CA2877314F00184498 /* CodingFoundamentalsUITests.swift */,
-				FEFD49CC2877314F00184498 /* CodingFoundamentalsUITestsLaunchTests.swift */,
+				FEFD49AB2877314C00184498 /* SceneDelegate.swift */,
+				FEFD49AD2877314C00184498 /* ViewController.swift */,
+				FEFD49AF2877314C00184498 /* Main.storyboard */,
+				FEFD49B22877314E00184498 /* Assets.xcassets */,
+				FEFD49B42877314E00184498 /* LaunchScreen.storyboard */,
+				FEFD49A92877314C00184498 /* AppDelegate.swift */,
 			);
-			path = CodingFoundamentalsUITests;
+			path = folder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FEFD49A52877314C00184498 /* CodingFoundamentals */ = {
+		FEFD49A52877314C00184498 /* CodingFundamentals */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FEFD49D02877314F00184498 /* Build configuration list for PBXNativeTarget "CodingFoundamentals" */;
+			buildConfigurationList = FEFD49D02877314F00184498 /* Build configuration list for PBXNativeTarget "CodingFundamentals" */;
 			buildPhases = (
 				FEFD49A22877314C00184498 /* Sources */,
 				FEFD49A32877314C00184498 /* Frameworks */,
@@ -142,14 +125,14 @@
 			);
 			dependencies = (
 			);
-			name = CodingFoundamentals;
+			name = CodingFundamentals;
 			productName = CodingFoundamentals;
-			productReference = FEFD49A62877314C00184498 /* CodingFoundamentals.app */;
+			productReference = FEFD49A62877314C00184498 /* CodingFundamentals.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FEFD49BB2877314E00184498 /* CodingFoundamentalsTests */ = {
+		FEFD49BB2877314E00184498 /* CodingFundamentalsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FEFD49D32877314F00184498 /* Build configuration list for PBXNativeTarget "CodingFoundamentalsTests" */;
+			buildConfigurationList = FEFD49D32877314F00184498 /* Build configuration list for PBXNativeTarget "CodingFundamentalsTests" */;
 			buildPhases = (
 				FEFD49B82877314E00184498 /* Sources */,
 				FEFD49B92877314E00184498 /* Frameworks */,
@@ -160,28 +143,10 @@
 			dependencies = (
 				FEFD49BE2877314E00184498 /* PBXTargetDependency */,
 			);
-			name = CodingFoundamentalsTests;
+			name = CodingFundamentalsTests;
 			productName = CodingFoundamentalsTests;
-			productReference = FEFD49BC2877314E00184498 /* CodingFoundamentalsTests.xctest */;
+			productReference = FEFD49BC2877314E00184498 /* CodingFundamentalsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		FEFD49C52877314F00184498 /* CodingFoundamentalsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FEFD49D62877314F00184498 /* Build configuration list for PBXNativeTarget "CodingFoundamentalsUITests" */;
-			buildPhases = (
-				FEFD49C22877314F00184498 /* Sources */,
-				FEFD49C32877314F00184498 /* Frameworks */,
-				FEFD49C42877314F00184498 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FEFD49C82877314F00184498 /* PBXTargetDependency */,
-			);
-			name = CodingFoundamentalsUITests;
-			productName = CodingFoundamentalsUITests;
-			productReference = FEFD49C62877314F00184498 /* CodingFoundamentalsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -200,13 +165,9 @@
 						CreatedOnToolsVersion = 13.3.1;
 						TestTargetID = FEFD49A52877314C00184498;
 					};
-					FEFD49C52877314F00184498 = {
-						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = FEFD49A52877314C00184498;
-					};
 				};
 			};
-			buildConfigurationList = FEFD49A12877314C00184498 /* Build configuration list for PBXProject "CodingFoundamentals" */;
+			buildConfigurationList = FEFD49A12877314C00184498 /* Build configuration list for PBXProject "CodingFundamentals" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +180,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FEFD49A52877314C00184498 /* CodingFoundamentals */,
-				FEFD49BB2877314E00184498 /* CodingFoundamentalsTests */,
-				FEFD49C52877314F00184498 /* CodingFoundamentalsUITests */,
+				FEFD49A52877314C00184498 /* CodingFundamentals */,
+				FEFD49BB2877314E00184498 /* CodingFundamentalsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,13 +204,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEFD49C42877314F00184498 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEFD49AE2877314C00184498 /* ViewController.swift in Sources */,
+				FEFD49DA287731D000184498 /* Fundamentals.swift in Sources */,
 				FEFD49AA2877314C00184498 /* AppDelegate.swift in Sources */,
 				FEFD49AC2877314C00184498 /* SceneDelegate.swift in Sources */,
 			);
@@ -272,27 +226,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEFD49C22877314F00184498 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FEFD49CD2877314F00184498 /* CodingFoundamentalsUITestsLaunchTests.swift in Sources */,
-				FEFD49CB2877314F00184498 /* CodingFoundamentalsUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		FEFD49BE2877314E00184498 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FEFD49A52877314C00184498 /* CodingFoundamentals */;
+			target = FEFD49A52877314C00184498 /* CodingFundamentals */;
 			targetProxy = FEFD49BD2877314E00184498 /* PBXContainerItemProxy */;
-		};
-		FEFD49C82877314F00184498 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FEFD49A52877314C00184498 /* CodingFoundamentals */;
-			targetProxy = FEFD49C72877314F00184498 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -438,7 +378,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CodingFoundamentals/Info.plist;
+				INFOPLIST_FILE = CodingFundamentals/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -449,7 +389,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pdelac.CodingFoundamentals;
+				PRODUCT_BUNDLE_IDENTIFIER = pdelac.CodingFundamentals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -465,7 +405,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CodingFoundamentals/Info.plist;
+				INFOPLIST_FILE = CodingFundamentals/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -476,7 +416,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pdelac.CodingFoundamentals;
+				PRODUCT_BUNDLE_IDENTIFIER = pdelac.CodingFundamentals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -499,7 +439,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodingFoundamentals.app/CodingFoundamentals";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodingFundamentals.app/CodingFundamentals";
 			};
 			name = Debug;
 		};
@@ -518,48 +458,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodingFoundamentals.app/CodingFoundamentals";
-			};
-			name = Release;
-		};
-		FEFD49D72877314F00184498 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pdelac.CodingFoundamentalsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CodingFoundamentals;
-			};
-			name = Debug;
-		};
-		FEFD49D82877314F00184498 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pdelac.CodingFoundamentalsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CodingFoundamentals;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodingFundamentals.app/CodingFundamentals";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FEFD49A12877314C00184498 /* Build configuration list for PBXProject "CodingFoundamentals" */ = {
+		FEFD49A12877314C00184498 /* Build configuration list for PBXProject "CodingFundamentals" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FEFD49CE2877314F00184498 /* Debug */,
@@ -568,7 +474,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FEFD49D02877314F00184498 /* Build configuration list for PBXNativeTarget "CodingFoundamentals" */ = {
+		FEFD49D02877314F00184498 /* Build configuration list for PBXNativeTarget "CodingFundamentals" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FEFD49D12877314F00184498 /* Debug */,
@@ -577,20 +483,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FEFD49D32877314F00184498 /* Build configuration list for PBXNativeTarget "CodingFoundamentalsTests" */ = {
+		FEFD49D32877314F00184498 /* Build configuration list for PBXNativeTarget "CodingFundamentalsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FEFD49D42877314F00184498 /* Debug */,
 				FEFD49D52877314F00184498 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FEFD49D62877314F00184498 /* Build configuration list for PBXNativeTarget "CodingFoundamentalsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FEFD49D72877314F00184498 /* Debug */,
-				FEFD49D82877314F00184498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

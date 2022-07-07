@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  CodingFoundamentals
+//  CodingFundamentals
 //
 //  Created by Pablo De La Cruz on 7/7/22.
 //
