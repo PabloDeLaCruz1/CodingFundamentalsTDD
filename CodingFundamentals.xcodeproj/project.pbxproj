@@ -28,7 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FE28743828775B7000FD4270 /* README.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = README.docx; sourceTree = "<group>"; };
 		FEFD49A62877314C00184498 /* CodingFundamentals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingFundamentals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFD49A92877314C00184498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEFD49AB2877314C00184498 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				FEFD49D9287731D000184498 /* Fundamentals.swift */,
-				FE28743828775B7000FD4270 /* README.docx */,
 				FEFD49B72877314E00184498 /* Info.plist */,
 			);
 			path = CodingFundamentals;
