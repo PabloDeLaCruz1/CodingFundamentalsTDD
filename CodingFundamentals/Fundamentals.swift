@@ -2,32 +2,28 @@ import Foundation
 
 class Fundamentals {
     
-    // *** #1 ***
-    // Create a function that adds two numbers and returns that value
+    // #1 Create a function that adds two numbers and returns that value
     func addNumbers(x: Int, y: Int) -> Int {
         //Your code here
         
         return 0
     }
     
-    // *** #2 ***
-    // Create a function that subtracts two numbers and returns that value
+    // #2 Create a function that subtracts two numbers and returns that value
     func subNumbers(x: Int, y: Int) -> Int {		    
         //Your code here
         
         return 0
     }
     
-    // *** #3 ***
-    // Create a function that multiplies two numbers and returns that value
+    // #3 Create a function that multiplies two numbers and returns that value
     func multNumbers(x: Int, y: Int) -> Int {
         //Your code here
         
         return 0
     }
 
-    // *** #4 ***
-    // Create a function that checks if a String is a Palindrome
+    // #4 Create a function that checks if a String is a Palindrome
     // A palindrome is a word, number, phrase or other sequence that reads the same forward as it reads backward. 
     func isPalindrome(word: String) -> Bool {
         //Your code here
