@@ -25,3 +25,4 @@ import Foundation
 
 // #9 View state management: Given an app with two tabs. One to play music, another to read books. On the music tab, play a song, then go to the books tab, then go back to the music tab. The song should continue playing instead of the view refreshing.
 
+// Next: Complete Swift fundamentals: https://github.com/PabloDeLaCruz1/SwiftMVC-TDD

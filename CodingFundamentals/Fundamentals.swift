@@ -106,7 +106,6 @@ class Fundamentals {
     }
 
     // #15 Given a two-dimensional array of integers, return the flattened version of the array with all the integers in the sorted (ascending) order.
-
     func flattenAndSort<T: Comparable>(_ arr: [[T]]) -> [T] {
         //Your code here
 
@@ -146,7 +145,6 @@ class Fundamentals {
 
     }
     // #19 Implement a basic Queue Data Structure for all types
-
     struct myQueue<T> {
         var array = [T]()
         var count: Int {
@@ -175,4 +173,5 @@ class Fundamentals {
         return 0
     }
 
+    //Proceed with Advanced.swift file
 }
