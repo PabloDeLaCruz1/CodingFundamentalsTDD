@@ -174,5 +174,5 @@ class Fundamentals {
 
         return 0
     }
-    
+
 }
