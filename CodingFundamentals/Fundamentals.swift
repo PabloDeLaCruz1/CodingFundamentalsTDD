@@ -16,7 +16,7 @@ class Fundamentals {
         return 0
     }
 
-    // #3 Create a function that multiplies two numbers and returns that value
+    // #3 Create a function that multiplies two numbers 
     func multNumbers(x: Int, y: Int) -> Int {
         //Your code here
 
@@ -129,6 +129,7 @@ class Fundamentals {
     }
 
     // #18 Implement a basic Stack Data Structure for Ints
+    // A Stack
     struct myStack<Int> {
         var array = [Int]()
 
@@ -144,7 +145,8 @@ class Fundamentals {
         }
 
     }
-    // #19 Implement a basic Queue Data Structure for all types
+    // #19 Implement a basic Queue Data Structure for all types (see generics).
+    // A Queue
     struct myQueue<T> {
         var array = [T]()
         var count: Int {
